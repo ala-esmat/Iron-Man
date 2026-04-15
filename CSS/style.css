@@ -64,10 +64,13 @@
   font-weight: 600;
   border-bottom: 2px solid transparent;
   text-decoration: none;
-  transition: all 0.33s ease;
+  transition: border-bottom 0.33s ease;
 }
-.navlist a:hover {
+
+.navlist a:hover,
+.navlist a:focus {
   border-bottom: 2px solid #fff;
+  outline: none;
 }
 #menu-icon {
   color: #fff;
